@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# OOTD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is one for the girls. With never ending events and things to do in the city, there's always a need for inspiration when brainstorming what to wear for whatever activities you have planned. This meant to be a social platform where girls can share the events they're attending and outfits they're wearing! There's also a page for upcoming events, and trending hashtags. 
 
 ## Available Scripts
 
@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Getting Started with OOTD React App

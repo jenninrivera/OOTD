@@ -9,6 +9,12 @@ body {
 );
 }
 
+.hashtags {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Impact"
+}
+
 .navbar {
   text-align: center;
 }
@@ -23,9 +29,17 @@ body {
 }
 
 .flow-container {
-  /* display: center; */
-  position: center
+  display: grid;
+  justify-content: center;
+  align-items: center
 }
+
+.flow-child {
+  align-items: center
+}
+
+
+
 .add-post-form {
   display: grid;
   width: 100px

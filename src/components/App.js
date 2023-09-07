@@ -12,13 +12,14 @@ import '../App.css';
 
 function App () {
 const [posts, setPosts] = useState([])
-const [liked, setLiked] = useState(false)
+console.log(posts)
+// const [liked, setLiked] = useState(false)
 
 
     useEffect(() => {
         fetch('http://localhost:8698/posts')
         .then(response => response.json())
-        .then(posts => setPosts(posts.sort().reverse()))
+        .then(posts => setPosts([...posts].sort().reverse()))
     }, [])
     
     const addNewPost = (newPost) => {
@@ -41,7 +42,7 @@ const [liked, setLiked] = useState(false)
     }, [])
 
     function handleLikes (post) {
-        setLiked(liked === !liked)
+        // setLiked(!liked)
         fetch(`http://localhost:8698/posts/${post.id}`, {
             method: "PATCH",
             headers: {
@@ -56,8 +57,8 @@ const [liked, setLiked] = useState(false)
     }
 
     function sortFyp () {
-        const sortedPosts = posts.sort().reverse()
-        console.log(sortedPosts)
+        console.log('Hello')
+        setPosts([...posts].sort().reverse())
     }
 
     return (
@@ -71,9 +72,13 @@ const [liked, setLiked] = useState(false)
                     <Route path='/hashtags'>
                         <TrendingHashtags />
                     </Route>
-                    <Route path="/">
+                    <Route path="/posts">
                         <AddNewForm addNewPost={addNewPost}/>
-                        <Fyp posts={posts} handleLikes={handleLikes} liked={liked} sortFyp={sortFyp}/>
+                        <Fyp posts={posts} handleLikes={handleLikes} sortFyp={sortFyp}/>
+                    </Route>
+                    <Route exact path="/">
+                        <AddNewForm addNewPost={addNewPost}/>
+                        <Fyp posts={posts} handleLikes={handleLikes} sortFyp={sortFyp}/>
                     </Route>
                 </Switch>
             

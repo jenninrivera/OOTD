@@ -1,7 +1,8 @@
 function TrendingHashtags () {
     return (
-        <div>
+        <div className="hashtags">
                 <p>#ootd</p>
+                <p>#nyfw</p>
                 <p>#ootn</p>
                 <p>#martinimonday</p>
                 <p>#girlsnight</p>

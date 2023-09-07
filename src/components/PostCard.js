@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
-function PostCard ({post, handleLikes, liked}) {
-   
+function PostCard ({post, handleLikes}) {
+   const [postLiked, setPostLiked] = useState(false)
     return (
         <div className="flow-child">
-            <img id="post-image" src={post.image} alt="Loading..."/> < br/> <button onClick={() => handleLikes(post)} id="like-button">{liked ?  '❤️liked' : '♡unliked'} {post.likes} likes</button>
+            <img id="post-image" src={post.image} alt="Loading..."/> < br/> <button onClick={() => {
+                setPostLiked(!postLiked)
+                handleLikes(post) 
+            }
+                
+            } id="like-button">{postLiked ?  '❤️' : '♡'} {post.likes} likes</button>
             <h1 id="post-location">📍 {post.location}</h1>
             <h2 id="post-event">{post.event}</h2>
             <h3 id="post-caption">{post.caption}</h3>

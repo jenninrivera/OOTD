@@ -2,15 +2,19 @@
 import PostCard from './PostCard';
 
 
-function Fyp ({posts, handleLikes, liked, sortFyp}) {
+function Fyp ({posts, handleLikes, sortFyp}) {
     return (
-        <div className="flow-container">
-            <select className="sort-button" onClick={sortFyp}>
+        <>
+            <select className="sort-button" onChange={sortFyp}>
                 <option>Latest Posts</option>
                 <option >Earliest Post</option>
             </select>
-        {posts.map(post => { return <PostCard key={post.id} post={post} handleLikes={handleLikes} liked={liked}/>})}
+        <div className="flow-container">
+            
+        {posts.map(post => { return <PostCard key={post.id} post={post} handleLikes={handleLikes} />})}
         </div>
+        </>
+        
     )
 
 }
