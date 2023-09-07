@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://i0.wp.com/www.lechicstreet.com/wp-content/uploads/2021/07/F25DD73E-3E91-4CA7-A712-79E29DAE8BAC-1.jpeg?resize=700%2C900&ssl=1",
+      "location": "Haswell Greens",
+      "event": "Brunch",
+      "caption": "Bottomless Sunday Funday wtih the girls! Here's today #ootd #mirrorselfie",
+      "likes": 245
+    },
+    {
+      "id": 2,
+      "image": "https://product-images-cdn.liketoknow.it/P3M1oMPKsPo2l3XbWR6TSJIPpcUxo5TfeselExZEk.qgcLtk_NphRwnY7FXh.5mIXXh1QAnYPSxBEANzdQaDbCzz0IYGHzphEixK7Vq7eWXA6jsuxDO0jMp1FnVktBuzugzp7pjvthrJtdlyFUjsXGYRYyrWTvnccvhuSwTo.pcHk01u7RP1byHzBFI-?v=0&auto=format&fm=webp&w=450&q=80&dpr=2.625",
+      "location": "Poco Loco",
+      "event": "Bottomless Brunch",
+      "caption": "Time to eat and dance my little heart out! #ootd #sundaybrunch #lulus",
+      "likes": 187
+    },
+    {
+      "id": 3,
+      "image": "https://i.pinimg.com/originals/2e/f5/1e/2ef51ef0d30db6eda86afceb14598cf7.jpg",
+      "location": "MetLife Stadium",
+      "event": "Sunday Night Footbal",
+      "caption": "Watching tonights gamee 🏈 #ootn #sundayfootball #sporty",
+      "likes": 218
+    },
+    {
+      "id": 4,
+      "image": "https://i.pinimg.com/564x/ff/b1/9b/ffb19b9b3ba34a105173d03ce92f60b6.jpg",
+      "location": "Plug Uglies",
+      "event": "Game Night",
+      "caption": "Watching the game and playing some pool with friends tonight #ootn #chillnight #gogiants",
+      "likes": 169
+    },
+    {
+      "id": 5,
+      "image": "https://nyc-woman.com/wp-content/uploads/2018/07/carina-castaner-espadrilles-1440x1850.jpg",
+      "location": "Angelina Paris",
+      "event": "Breakfast",
+      "caption": "Grabbing some tea and breakfast in the Garment District today ☕️ #ootd #breakfast",
+      "likes": 487
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.cliqueinc.com/posts/280149/nyc-summer-street-style-outfits-280149-1622139512482-main.700x0c.jpg",
+      "location": "Soho",
+      "event": "Shopping",
+      "caption": "Looking for new pieces to show off for NYFW need #inspo ! #ootd #les",
+      "likes": 711
+    },
+    {
+      "id": 7,
+      "image": "https://i0.wp.com/joannarahier.com/wp-content/uploads/2023/03/cute-outfit-45.jpeg?w=1100&ssl=1",
+      "location": "Carne Mare",
+      "event": "Date Night",
+      "caption": "First date, wish me luck girls 💜 #ootn #datenight",
+      "likes": 514
+    },
+    {
+      "id": 8,
+      "image": "https://i.pinimg.com/736x/3f/d6/42/3fd6425fcee09d1cecee8a31463d775e.jpg",
+      "location": "Dante",
+      "event": "Esspresso Martini Monday",
+      "caption": "The right way to being the week #ootn #drinks #girlsnight",
+      "likes": 248
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Martini Mondays Happy Hour",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2019/09/Espresso-Martini_3.jpg",
+      "location": "UVA Next Door",
+      "link": "https://www.uvanextdoor.com/unddrink"
+    },
+    {
+      "id": 2,
+      "name": "ALDO Pillow Walk",
+      "image": "https://nycplugged.com/wp-content/uploads/2023/09/ALDO-Pillow-Talk-Pop-up.jpg",
+      "location": "E 8th Avenue & Lafayette",
+      "link": "https://www.averagesocialite.com/nyc-events/2023/9/3/aldo-pillow-talk-pop-up-nyc"
+    },
+    {
+      "id": 3,
+      "name": "Pandora Lab Grown Diamond District",
+      "image": "https://nationaljeweler.com/uploads/fbceea3deb2908d3170d7492dd377db0.avif",
+      "location": "410 Lafayette",
+      "link": "https://nycplugged.com/calendar/pandora-lab-grown-diamond-district/"
+    },
+    {
+      "id": 4,
+      "name": "Hey Harper Jewlery Swap",
+      "image": "https://d3tv8y14ogpztx.cloudfront.net/pulses/images/000/053/174/show_box/hey_harper_pop-up.jpg",
+      "location": "268 Elizabeth",
+      "link": "https://nycplugged.com/calendar/hey-harper-free-nyc-from-rusty-jewelry-pop-up/"
+    },
+    {
+      "id": 5,
+      "name": "Dove Pit Stop",
+      "image": "https://d3tv8y14ogpztx.cloudfront.net/pulses/images/000/053/124/show_box/dove_pop-up.jpg",
+      "location": "Chelsea Plaza",
+      "link": "https://pulsd.com/new-york/events/14th-street-9th-avenue/dove-pit-stop-pop-up"
+    }
+  ]
+}
