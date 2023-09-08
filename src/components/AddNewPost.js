@@ -20,14 +20,12 @@ function AddNewPost ({addNewPost}) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div className="add-post-form">
+        <form onSubmit={handleSubmit} className="post-form">
                 <input onChange={handleChange} value={form.image} type="text" name="image" placeholder="Image URL"/>                 
                 <input onChange={handleChange} value={form.location} type="text" name="location" placeholder="Location"/> 
                 <input onChange={handleChange} value={form.event} type="text" name="event" placeholder="Event"/> 
-                <input onChange={handleChange} value={form.caption} type="text" name="caption" placeholder="Caption"/>
+                <textarea rows="5" col="20" wrap="hard" maxLength="250" id="caption-input" onChange={handleChange} value={form.caption} type="text" name="caption" placeholder="Caption"></textarea>
                 <button className="add-post-button">Add Post</button>                 
-            </div>
         </form>
     )
 }
