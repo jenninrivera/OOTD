@@ -1,6 +1,6 @@
 # OOTD
 
-This project is one for the girls. With never ending events and things to do in the city, there's always a need for inspiration when brainstorming what to wear for whatever activities you have planned. This meant to be a social platform where girls can share the events they're attending and outfits they're wearing! There's also a page for upcoming events, and trending hashtags. 
+This project is one to inspire others and share fashion trends. With never ending events and things to do in the city, there's always a need for inspiration when brainstorming what to wear for whatever activities you have planned. This meant to be a social platform where people can share the events they're attending and outfits they're wearing! There's also a page for upcoming events, and trending hashtags. 
 
 ## Core Features:
 
